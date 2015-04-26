@@ -62,3 +62,9 @@ var factorize = function (num) {
     };
     return factors;
 };
+
+//test cases
+console.log(factorize(4)); //[2,2]
+console.log(factorize(17)); //[17]
+console.log(factorize(835106)); //[2,417553]
+console.log(factorize(251370)); //[2,3,3,3,5,7,7,19]
