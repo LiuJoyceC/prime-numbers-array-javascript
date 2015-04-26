@@ -1,5 +1,6 @@
 //Part 1: Prime Array
-//Creates array prime such that prime[n] will let you know if n is prime, for n = 0, 1, 2,...specified max.
+//Creates array prime such that prime[n] = true if n is prime and false if n is not prime, 
+//for n = 0, 1, 2,...specified max.
 
 //getTime() used to measure the runtime to finish making the prime array
 
@@ -41,7 +42,10 @@ console.log(prime[294859]); //true
 
 
 //Part 2: Prime Factorization
-//This function takes as input a number (less than or equal to the max specified in Part 1), and returns an array with the prime factors. If the number is prime, then the array will just have the number itself as its one element. This function depends on the prime array created in Part 1.
+//This function takes as input a number (less than or equal to the max specified in Part 1), 
+//and returns an array with the prime factors. If the number is prime, 
+//then the array will just have the number itself as its one element. 
+//This function depends on the prime array created in Part 1.
 
 var factorize = function (num) {
     var factors = [];
